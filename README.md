@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TypeFast - Modern Typing Speed Test Application
+
+TypeFast is a modern, feature-rich typing speed test application built with Next.js, TypeScript, and Tailwind CSS. It provides an engaging platform for users to improve their typing speed and accuracy through various difficulty levels and real-time feedback.
+
+## Features
+
+### 🚀 Real-time Typing Analysis
+- Character-by-character comparison
+- Instant error highlighting
+- Live WPM (Words Per Minute) calculation
+- Accuracy tracking
+- Error count monitoring
+
+### 📊 Performance Statistics
+- Detailed performance metrics
+- Interactive performance charts
+- Historical data visualization
+- Progress tracking over time
+
+### 🎯 Multiple Difficulty Levels
+- Easy: Short, simple sentences
+- Medium: Longer, more complex passages
+- Hard: Technical and complex content
+
+### 🎨 Modern UI/UX
+- Clean, minimalist design
+- Responsive layout
+- Smooth animations with Framer Motion
+- Real-time visual feedback
+- Dark mode support
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Charts**: Recharts
+- **Database**: Prisma (for future features)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/typefast.git
+   cd typefast
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+typefast/
+├── components/
+│   ├── TypingTest.tsx      # Main typing test component
+│   ├── StatisticsDisplay.tsx # Performance statistics
+│   └── TextEngine.tsx      # Text generation engine
+├── lib/                    # Utility functions
+├── prisma/                 # Database schema
+├── public/                 # Static assets
+└── src/                    # Source files
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Enhancements
 
-## Learn More
+- [ ] User authentication
+- [ ] Global leaderboards
+- [ ] Custom text input
+- [ ] Multiple language support
+- [ ] Practice mode with specific focus areas
+- [ ] Mobile app version
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Recharts](https://recharts.org/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Made with ❤️ by Sanchay Jadon
